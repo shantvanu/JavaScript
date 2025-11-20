@@ -15,7 +15,6 @@ But since your function doesn’t reference this, it doesn’t matter. The bindi
 multiplyByThree = multiply.bind(this,3);
 multiplyByThree(10);
 
-
 // the second method to curry is using closures:
 
 let closureMultiply = function(x)
@@ -27,6 +26,7 @@ let closureMultiply = function(x)
 }
 
 // this above function is same as the above first multiply method, just using closure here.
+
 
 let multiply2= closureMultiply(2)(10);
 
