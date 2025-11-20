@@ -26,7 +26,7 @@ let closureMultiply = function(x)
     }
 }
 
-// this function is same as the above first multiply method, just using closure here.
+// this above function is same as the above first multiply method, just using closure here.
 
 let multiply2= closureMultiply(2)(10);
 
