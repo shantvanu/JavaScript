@@ -7,6 +7,9 @@ createOrder(cart)
   .then(function (orderId) {
     return proceedToPayment(orderId);
   })
+  .then(function (paymentInfo) {
+    console.log(paymentInfo);
+  })
   .catch(function (err) {
     console.log(err.message);
   })
